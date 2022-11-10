@@ -95,7 +95,7 @@ def kuki(update: Update, context: CallbackContext):
 
 def kuki_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
-    if message.text.lower() == "Sofia":
+    if message.text.lower() == "Exon":
         return True
     if reply_message:
         if reply_message.from_user.id == context.bot.get_me().id:
@@ -143,7 +143,7 @@ def list_all_chats(update: Update, context: CallbackContext):
 
 
 __help__ = """
-ᴄʜᴀᴛʙᴏᴛ ᴜᴛɪʟɪᴢᴇs ᴛʜᴇ ᴋᴜᴋɪ's API ᴡʜɪᴄʜ ᴀʟʟᴏᴡs ꜱᴏꜰɪᴀ ᴛᴏ ᴛᴀʟᴋ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴍᴏʀᴇ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ.
+ᴄʜᴀᴛʙᴏᴛ ᴜᴛɪʟɪᴢᴇs ᴛʜᴇ ᴋᴜᴋɪ's API ᴡʜɪᴄʜ ᴀʟʟᴏᴡs ᴇxᴏɴ ᴛᴏ ᴛᴀʟᴋ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴍᴏʀᴇ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ.
 *ᴀᴅᴍɪɴs ᴏɴʟʏ ᴄᴏᴍᴍᴀɴᴅs*:
 
 ✪ /Chatbot*:* sʜᴏᴡs ᴄʜᴀᴛʙᴏᴛ ᴄᴏɴᴛʀᴏʟ ᴘᴀɴᴇʟ
