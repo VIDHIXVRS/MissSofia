@@ -43,7 +43,7 @@ from Sofia import DEMONS as SUPPORT_USERS
 from Sofia import DEV_USERS
 from Sofia import DRAGONS as SUDO_USERS
 from Sofia import INFOPIC, OWNER_ID
-from Sofia import OWNER_USERNAME as AKBOSS
+from Sofia import OWNER_USERNAME as HNYOMP
 from Sofia import TIGERS
 from Sofia import WOLVES as WHITELIST_USERS
 from Sofia import StartTime, dispatcher, sw
@@ -330,7 +330,7 @@ def stats(update, context):
             + "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
             + "\n\n[ɢɪᴛʜᴜʙ](https://github.com/VIDHIXVRS/SofiaRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/SOFIASUPPORT)\n\n"
-            + f"「 ʙʏ[ᴀʙɪsʜɴᴏɪ](t.me/{AKBOSS}) 」\n",
+            + f"「 ʙʏ[ꜱᴏꜰɪᴀ](t.me/{HNYOMP}) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -344,7 +344,7 @@ def stats(update, context):
                     )
                     + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/VIDHIXVRS/SofiaRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/SOFIASUPPORT)\n\n"
                 )
-                + f"「 ʙʏ [ᴀʙɪsʜɴᴏɪ](t.me/{AKBOSS}) 」\n"
+                + f"「 ʙʏ [ꜱᴏꜰɪᴀ](t.me/{HNYOMP}) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
